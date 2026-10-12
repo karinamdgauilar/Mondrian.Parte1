@@ -27,7 +27,7 @@ function draw() {
   fill(26, 35, 126);
   rect(xMain, yMid, xBlueRight - xMain, yBottom - yMid);
 
-  // PainÃ©is de Fundo (Creme / Branco)
+  
   fill(244, 243, 238); rect(xMain, 0, width - xMain, yTop);               
   fill(238, 237, 232); rect(0, yTop, xMain, yMid - yTop);                 
   fill(240, 239, 235); rect(xMain, yTop, width - xMain, yMid - yTop);    
@@ -38,12 +38,11 @@ function draw() {
   stroke(15, 15, 15);
   strokeCap(SQUARE);
 
-  // Horizontais
   strokeWeight(18); line(0, yTop, width, yTop);
   strokeWeight(16); line(0, yMid, width, yMid);
   strokeWeight(14); line(xMain, yBottom, xBlueRight, yBottom); 
 
-  // Verticais
+ 
   strokeWeight(17); line(xMain, 0, xMain, height);
   strokeWeight(15); line(xYellow, yMid, xYellow, height);
   strokeWeight(14); line(xBlueRight, yMid, xBlueRight, height);
